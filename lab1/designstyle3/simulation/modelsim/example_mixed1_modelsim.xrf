@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Tortoise/Documents/School/ECE 380/Lab 1/designstyle3/vhdlfunctions.vhd
+source_file = 1, C:/Users/Tortoise/Documents/School/ECE 380/Lab 1/designstyle3/example_mixed1.bdf
+source_file = 1, c:/altera/15.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/15.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/15.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/15.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, c:/users/tortoise/documents/school/ece 380/lab 1/designstyle1/example_schematic.bdf
+design_name = example_mixed1
+instance = comp, \f~output\, f~output, example_mixed1, 1
+instance = comp, \x2~input\, x2~input, example_mixed1, 1
+instance = comp, \w3~input\, w3~input, example_mixed1, 1
+instance = comp, \w2~input\, w2~input, example_mixed1, 1
+instance = comp, \w1~input\, w1~input, example_mixed1, 1
+instance = comp, \w4~input\, w4~input, example_mixed1, 1
+instance = comp, \inst1|inst3~0\, inst1|inst3~0, example_mixed1, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, example_mixed1, 1

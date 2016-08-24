@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Tortoise/Documents/School/ECE 380/Lab 1/designstyle2/simulation/qsim
+vexample_vhdl
+Z1 !s110 1472056224
+!i10b 1
+!s100 3VPkS325EFnEl=6JgUAjN1
+I?gGFGC82[j]D_?SJiXJOj0
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1472056222
+8example_vhdl.vo
+Fexample_vhdl.vo
+L0 32
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1472056224.313000
+!s107 example_vhdl.vo|
+!s90 -work|work|example_vhdl.vo|
+!i113 1
+Z4 o-work work
+vexample_vhdl_vlg_check_tst
+R1
+!i10b 1
+!s100 GSaCX=ckbZGZL`Qn>OlhW3
+IbcQObZ4Y2KT9logSX]foK1
+R2
+R0
+Z5 w1472056215
+Z6 8example_vhdl.vwf.vt
+Z7 Fexample_vhdl.vwf.vt
+L0 62
+R3
+r1
+!s85 0
+31
+Z8 !s108 1472056224.418000
+Z9 !s107 example_vhdl.vwf.vt|
+Z10 !s90 -work|work|example_vhdl.vwf.vt|
+!i113 1
+R4
+vexample_vhdl_vlg_sample_tst
+R1
+!i10b 1
+!s100 Hdh>b1?E[Hoon>@]01PAP0
+ICOC5<1K@TJ;0d]a<W;d8@1
+R2
+R0
+R5
+R6
+R7
+L0 30
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R4
+vexample_vhdl_vlg_vec_tst
+R1
+!i10b 1
+!s100 S:U8MPf`3caRT@@C@2X?`3
+I5kBdI3j5Q`f8]2blWZI9@3
+R2
+R0
+R5
+R6
+R7
+L0 157
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R4

@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Tortoise/Documents/School/ECE 380/Lab 1/designstyle1/simulation/qsim
+vexample_schematic
+Z1 !s110 1472056026
+!i10b 1
+!s100 jFWmWCY0V3j=P9oezg5gb3
+IbD]O0C68XDRlSa1Q@mOen1
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1472056024
+8example_schematic.vo
+Fexample_schematic.vo
+L0 32
+Z3 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1472056026.386000
+!s107 example_schematic.vo|
+!s90 -work|work|example_schematic.vo|
+!i113 1
+Z4 o-work work
+vexample_schematic_vlg_check_tst
+R1
+!i10b 1
+!s100 1FUzC?766M1@Of9[ZKgU:2
+IA^m^9<F=@al^4SkHaPnLk2
+R2
+R0
+Z5 w1472056018
+Z6 8example_schematic.vwf.vt
+Z7 Fexample_schematic.vwf.vt
+L0 62
+R3
+r1
+!s85 0
+31
+Z8 !s108 1472056026.504000
+Z9 !s107 example_schematic.vwf.vt|
+Z10 !s90 -work|work|example_schematic.vwf.vt|
+!i113 1
+R4
+vexample_schematic_vlg_sample_tst
+R1
+!i10b 1
+!s100 dgnX75gSScgeI1EN]O0f?2
+IObkTeThZ7SACSiNI:SFTE3
+R2
+R0
+R5
+R6
+R7
+L0 30
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R4
+vexample_schematic_vlg_vec_tst
+R1
+!i10b 1
+!s100 g5IIiedI]BL[lU;<oKnk93
+IBoQU5>]lX<Y?LToz7hKYS2
+R2
+R0
+R5
+R6
+R7
+L0 157
+R3
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R4
