@@ -1,0 +1,7 @@
+|lab2c
+f <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+C => inst1.IN0
+A => inst.IN0
+B => inst.IN1
+
+

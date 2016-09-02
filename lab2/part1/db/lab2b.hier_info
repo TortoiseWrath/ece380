@@ -1,0 +1,10 @@
+|lab2b
+a => f.IN0
+b => f.IN1
+c => f.IN1
+c => h.DATAIN
+f <= f.DB_MAX_OUTPUT_PORT_TYPE
+g <= f.DB_MAX_OUTPUT_PORT_TYPE
+h <= c.DB_MAX_OUTPUT_PORT_TYPE
+
+

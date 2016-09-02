@@ -1,0 +1,9 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Tortoise/Documents/School/ECE 380/Lab 2/lab2c.bdf
+source_file = 1, C:/Users/Tortoise/Documents/School/ECE 380/Lab 2/lab2c.vwf
+source_file = 1, C:/Users/Tortoise/Documents/School/ECE 380/Lab 2/db/lab2c.cbx.xml
+design_name = lab2c
+instance = comp, \f~output , f~output, lab2c, 1
+instance = comp, \C~input , C~input, lab2c, 1
+instance = comp, \A~input , A~input, lab2c, 1
+instance = comp, \B~input , B~input, lab2c, 1

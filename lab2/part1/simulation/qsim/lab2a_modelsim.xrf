@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Tortoise/Documents/School/ECE 380/Lab 2/lab2a.vhd
+source_file = 1, C:/Users/Tortoise/Documents/School/ECE 380/Lab 2/Waveform.vwf
+source_file = 1, c:/altera/15.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/15.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/15.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/15.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/Tortoise/Documents/School/ECE 380/Lab 2/db/lab2a.cbx.xml
+design_name = lab2a
+instance = comp, \f~output , f~output, lab2a, 1
+instance = comp, \a~input , a~input, lab2a, 1
+instance = comp, \b~input , b~input, lab2a, 1
+instance = comp, \c~input , c~input, lab2a, 1
+instance = comp, \f~0 , f~0, lab2a, 1

@@ -1,0 +1,45 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Tortoise/Documents/School/ECE 380/Lab 2/simulation/modelsim
+Elab2b
+Z1 w1472601914
+R0
+Z2 8C:/Users/Tortoise/Documents/School/ECE 380/Lab 2/lab2b.vhd
+Z3 FC:/Users/Tortoise/Documents/School/ECE 380/Lab 2/lab2b.vhd
+l0
+L1
+Ve>BfQHzL0VgLlXnNo7]:I2
+!s100 >97k@Z17dk2NKAg;RPVNa3
+Z4 OV;C;10.3d;59
+31
+Z5 !s110 1472601988
+!i10b 1
+Z6 !s108 1472601988.507000
+Z7 !s90 -reportprogress|300|-93|-work|work|C:/Users/Tortoise/Documents/School/ECE 380/Lab 2/lab2b.vhd|
+Z8 !s107 C:/Users/Tortoise/Documents/School/ECE 380/Lab 2/lab2b.vhd|
+!i113 1
+Z9 o-93 -work work
+Z10 tExplicit 1
+Abehavior
+DEx4 work 5 lab2b 0 22 e>BfQHzL0VgLlXnNo7]:I2
+l7
+L6
+VO98L9Dgel;3ACRmCJR28W0
+!s100 ncQWHYFo=MWWXJ87HEV<c1
+R4
+31
+R5
+!i10b 1
+R6
+R7
+R8
+!i113 1
+R9
+R10
