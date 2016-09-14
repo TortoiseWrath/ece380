@@ -1,0 +1,11 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Tortoise/Documents/School/ECE 380/Lab 3/Prelab/prelab3q5.bdf
+source_file = 1, C:/Users/Tortoise/Documents/School/ECE 380/Lab 3/Prelab/Waveform1.vwf
+source_file = 1, C:/Users/Tortoise/Documents/School/ECE 380/Lab 3/Prelab/db/prelab3q5.cbx.xml
+design_name = prelab3q5
+instance = comp, \f~output , f~output, prelab3q5, 1
+instance = comp, \c0~input , c0~input, prelab3q5, 1
+instance = comp, \b~input , b~input, prelab3q5, 1
+instance = comp, \a~input , a~input, prelab3q5, 1
+instance = comp, \c1~input , c1~input, prelab3q5, 1
+instance = comp, \inst7~0 , inst7~0, prelab3q5, 1
