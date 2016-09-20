@@ -1,0 +1,19 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY lab4 IS
+PORT (a,b,c,d: IN std_logic;
+		f: OUT std_logic);
+END lab4;
+
+ARCHITECTURE Structure of lab4 IS
+	SIGNAL s0, s1, s2, s3, s4, s5: std_logic;
+BEGIN
+	s0 <= NOT(NOT a AND NOT c AND NOT d);
+	s1 <= NOT(NOT a AND b AND NOT c);
+	s2 <= NOT(NOT a AND c AND d);
+	s3 <= NOT(NOT a AND NOT b AND c);
+	s4 <= NOT(NOT b AND c AND d);
+	s5 <= NOT(a AND b AND c AND NOT d);
+	f <= NOT(s0 AND s1 AND s2 AND s3 AND s4 AND s5);
+END Structure;	

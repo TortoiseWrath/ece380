@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/sdgillen/Desktop/Lab 4/lab4.vhd
+source_file = 1, C:/Users/sdgillen/Desktop/Lab 4/Waveform.vwf
+source_file = 1, c:/altera/16.0/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/16.0/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/16.0/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/16.0/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/sdgillen/Desktop/Lab 4/db/lab4.cbx.xml
+design_name = lab4
+instance = comp, \f~output , f~output, lab4, 1
+instance = comp, \d~input , d~input, lab4, 1
+instance = comp, \b~input , b~input, lab4, 1
+instance = comp, \a~input , a~input, lab4, 1
+instance = comp, \c~input , c~input, lab4, 1
+instance = comp, \f~0 , f~0, lab4, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, lab4, 1

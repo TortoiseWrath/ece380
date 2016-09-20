@@ -1,0 +1,27 @@
+# do lab4.do
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:56:49 on Sep 20,2016
+# vlog -work work lab4.vo 
+# -- Compiling module lab4
+# 
+# Top level modules:
+# 	lab4
+# End time: 18:56:50 on Sep 20,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:56:50 on Sep 20,2016
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module lab4_vlg_vec_tst
+# 
+# Top level modules:
+# 	lab4_vlg_vec_tst
+# End time: 18:56:50 on Sep 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.lab4_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 18:56:50 on Sep 20,2016
+# Loading work.lab4_vlg_vec_tst
+# Loading work.lab4
+# ** Note: $finish    : Waveform.vwf.vt(51)
+#    Time: 160 ns  Iteration: 0  Instance: /lab4_vlg_vec_tst
+# End time: 18:56:52 on Sep 20,2016, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0

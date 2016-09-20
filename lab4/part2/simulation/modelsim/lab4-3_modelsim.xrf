@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/sdgillen/Desktop/Lab 4 again/nand.bdf
+source_file = 1, C:/Users/sdgillen/Desktop/Lab 4 again/lab4-3.bdf
+source_file = 1, C:/Users/sdgillen/Desktop/Lab 4 again/db/lab4-3.cbx.xml
+design_name = \lab4-3 
+instance = comp, \f~output , f~output, \lab4-3 , 1
+instance = comp, \d~input , d~input, \lab4-3 , 1
+instance = comp, \b~input , b~input, \lab4-3 , 1
+instance = comp, \a~input , a~input, \lab4-3 , 1
+instance = comp, \c~input , c~input, \lab4-3 , 1
+instance = comp, \inst6~0 , inst6~0, \lab4-3 , 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, \lab4-3 , 1
