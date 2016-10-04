@@ -1,0 +1,62 @@
+|lab5c
+Over <= LPM_ADD_SUB:inst.overflow
+Cin => LPM_ADD_SUB:inst.cin
+X[0] => LPM_ADD_SUB:inst.dataa[0]
+X[1] => LPM_ADD_SUB:inst.dataa[1]
+X[2] => LPM_ADD_SUB:inst.dataa[2]
+X[3] => LPM_ADD_SUB:inst.dataa[3]
+Y[0] => LPM_ADD_SUB:inst.datab[0]
+Y[1] => LPM_ADD_SUB:inst.datab[1]
+Y[2] => LPM_ADD_SUB:inst.datab[2]
+Y[3] => LPM_ADD_SUB:inst.datab[3]
+Cout <= LPM_ADD_SUB:inst.cout
+S[0] <= LPM_ADD_SUB:inst.result[0]
+S[1] <= LPM_ADD_SUB:inst.result[1]
+S[2] <= LPM_ADD_SUB:inst.result[2]
+S[3] <= LPM_ADD_SUB:inst.result[3]
+
+
+|lab5c|LPM_ADD_SUB:inst
+dataa[0] => add_sub_9od:auto_generated.dataa[0]
+dataa[1] => add_sub_9od:auto_generated.dataa[1]
+dataa[2] => add_sub_9od:auto_generated.dataa[2]
+dataa[3] => add_sub_9od:auto_generated.dataa[3]
+datab[0] => add_sub_9od:auto_generated.datab[0]
+datab[1] => add_sub_9od:auto_generated.datab[1]
+datab[2] => add_sub_9od:auto_generated.datab[2]
+datab[3] => add_sub_9od:auto_generated.datab[3]
+cin => add_sub_9od:auto_generated.cin
+add_sub => ~NO_FANOUT~
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= add_sub_9od:auto_generated.result[0]
+result[1] <= add_sub_9od:auto_generated.result[1]
+result[2] <= add_sub_9od:auto_generated.result[2]
+result[3] <= add_sub_9od:auto_generated.result[3]
+cout <= add_sub_9od:auto_generated.cout
+overflow <= add_sub_9od:auto_generated.overflow
+
+
+|lab5c|LPM_ADD_SUB:inst|add_sub_9od:auto_generated
+cin => op_1.IN10
+cin => op_1.IN11
+cout <= op_1.DB_MAX_OUTPUT_PORT_TYPE
+dataa[0] => op_1.IN8
+dataa[1] => op_1.IN6
+dataa[2] => op_1.IN4
+dataa[3] => op_1.IN2
+dataa[3] => _.IN0
+dataa[3] => _.IN0
+datab[0] => op_1.IN9
+datab[1] => op_1.IN7
+datab[2] => op_1.IN5
+datab[3] => op_1.IN3
+datab[3] => _.IN1
+overflow <= overflow.DB_MAX_OUTPUT_PORT_TYPE
+result[0] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= op_1.DB_MAX_OUTPUT_PORT_TYPE
+
+

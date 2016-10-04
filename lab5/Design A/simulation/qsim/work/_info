@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Tortoise/Documents/School/ECE 380/Lab 5/Design A/simulation/qsim
+vlab5a
+Z1 !s110 1475625193
+!i10b 1
+!s100 KC]kNzfREm4SWSka^=9@f2
+Ia@CnVfdQ2fc0dfM;`agmo0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dD:/Lab 5/Design A/simulation/qsim
+w1475625188
+8lab5a.vo
+Flab5a.vo
+L0 32
+Z4 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z5 !s108 1475625193.000000
+!s107 lab5a.vo|
+!s90 -work|work|lab5a.vo|
+!i113 1
+Z6 o-work work
+vlab5a_vlg_check_tst
+Z7 !s110 1475619177
+!i10b 1
+!s100 cOE8IVc54I7PWe9aHzgD`0
+IGNM=TY[W@i>BDXQDJQI4H3
+Z8 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+Z9 w1475619171
+Z10 8Waveform.vwf.vt
+Z11 FWaveform.vwf.vt
+L0 62
+Z12 OV;L;10.3d;59
+r1
+!s85 0
+31
+Z13 !s108 1475619177.946000
+Z14 !s107 Waveform.vwf.vt|
+Z15 !s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+vlab5a_vlg_sample_tst
+R7
+!i10b 1
+!s100 9oD?^TI@Djc9m`cnOz3Yz1
+I>5zVKUI4i2=Q:aSd9GF<B3
+R8
+R0
+R9
+R10
+R11
+Z16 L0 30
+R12
+r1
+!s85 0
+31
+R13
+R14
+R15
+!i113 1
+R6
+vlab5a_vlg_vec_tst
+R1
+!i10b 1
+!s100 HIO6UiCg7NUTeV3MXeE1I0
+IfkLfmlmg[DZjnRSXYNART2
+R2
+R3
+w1475625182
+R10
+R11
+R16
+R4
+r1
+!s85 0
+31
+R5
+R14
+R15
+!i113 1
+R6

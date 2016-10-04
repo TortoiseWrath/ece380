@@ -1,0 +1,62 @@
+|lab5b
+Cin => fulladd:fulladd1.Cin
+X[0] => fulladd:fulladd1.X
+X[1] => fulladd:fulladd2.X
+X[2] => fulladd:fulladd3.X
+X[3] => fulladd:fulladd4.X
+Y[0] => fulladd:fulladd1.Y
+Y[1] => fulladd:fulladd2.Y
+Y[2] => fulladd:fulladd3.Y
+Y[3] => fulladd:fulladd4.Y
+S[0] << fulladd:fulladd1.S
+S[1] << fulladd:fulladd2.S
+S[2] << fulladd:fulladd3.S
+S[3] << fulladd:fulladd4.S
+Cout << fulladd:fulladd4.Cout
+Over << Over.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5b|fulladd:fulladd1
+Cin => S.IN1
+Cin => Cout.IN1
+X => sum1.IN0
+X => Cout.IN0
+Y => sum1.IN1
+Y => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5b|fulladd:fulladd2
+Cin => S.IN1
+Cin => Cout.IN1
+X => sum1.IN0
+X => Cout.IN0
+Y => sum1.IN1
+Y => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5b|fulladd:fulladd3
+Cin => S.IN1
+Cin => Cout.IN1
+X => sum1.IN0
+X => Cout.IN0
+Y => sum1.IN1
+Y => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|lab5b|fulladd:fulladd4
+Cin => S.IN1
+Cin => Cout.IN1
+X => sum1.IN0
+X => Cout.IN0
+Y => sum1.IN1
+Y => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
