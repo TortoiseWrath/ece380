@@ -1,0 +1,29 @@
+# do adder4c.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:10:53 on Oct 11,2016
+# vlog -work work adder4c.vo 
+# -- Compiling module adder4c
+# 
+# Top level modules:
+# 	adder4c
+# End time: 19:10:53 on Oct 11,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:10:53 on Oct 11,2016
+# vlog -work work Waveform1.vwf.vt 
+# -- Compiling module adder4c_vlg_vec_tst
+# 
+# Top level modules:
+# 	adder4c_vlg_vec_tst
+# End time: 19:10:53 on Oct 11,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -novopt -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.adder4c_vlg_vec_tst -voptargs=""+acc"" 
+# Start time: 19:10:53 on Oct 11,2016
+# Loading work.adder4c_vlg_vec_tst
+# Loading work.adder4c
+# ** Note: $finish    : Waveform1.vwf.vt(49)
+#    Time: 50 ns  Iteration: 0  Instance: /adder4c_vlg_vec_tst
+# End time: 19:10:54 on Oct 11,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

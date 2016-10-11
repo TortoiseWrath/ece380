@@ -1,0 +1,50 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Lab 6/Design B/simulation/qsim
+vadder16b
+Z1 !s110 1476230778
+!i10b 1
+!s100 AdED2UD>[1gm[>=WCdE9=3
+I]820KZ9WFUVkmka1noN100
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1476230776
+8adder16b.vo
+Fadder16b.vo
+L0 32
+Z3 OV;L;10.4d;61
+r1
+!s85 0
+31
+!s108 1476230777.000000
+!s107 adder16b.vo|
+!s90 -work|work|adder16b.vo|
+!i113 1
+Z4 o-work work
+vadder16b_vlg_vec_tst
+R1
+!i10b 1
+!s100 T>CMj@Pm@:KVTz?eJ8KcM1
+IeKEX5:6Ug9Q5N<UBZYg2n2
+R2
+R0
+w1476230768
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+!s108 1476230778.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4

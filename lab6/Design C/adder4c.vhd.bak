@@ -1,0 +1,34 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY adder4c IS
+	PORT (A, B: IN SIGNED(3 DOWNTO 0);
+			S: OUT SIGNED(3 DOWNTO 0);
+			Cout: OUT std_logic);
+END adder4c;
+
+ARCHITECTURE Behavior OF adder4c IS
+	SIGNAL P, G, C: SIGNED(3 DOWNTO 0);
+BEGIN
+	G(0) <= A(0) AND B(0);
+	G(1) <= A(1) AND B(1);
+	G(2) <= A(2) AND B(2);
+	G(3) <= A(3) AND B(3);
+	--G <= A AND B;
+	
+	P(0) <= A(0) OR B(0);
+	P(1) <= A(1) OR B(1);
+	P(2) <= A(2) OR B(2);
+	P(3) <= A(3) OR B(3);
+	
+	C(0) <= '0';
+	C(1) <= G(0) OR P(0) AND C(0);
+	C(2) <= G(1) OR G(0) AND P(1) OR C(0) AND P(0) AND P(1);
+	C(3) <= G(2) OR G(1) AND P(2) OR G(0) AND P(1) AND P(2) OR C(0) AND P(0) AND P(1) AND P(2);
+	Cout <= G(3) OR G(2) AND P(3) OR G(1) AND P(2) AND P(3) OR G(0) AND P(1) AND P(2) AND P(3) OR C(0) AND P(0) AND P(1) AND P(2) AND P(3);
+	
+	S(0) <= P(0) OR C(0);
+	S(1) <= P(1) OR C(1);
+	S(2) <= P(2) OR C(2);
+	S(3) <= P(3) OR C(3);
+END Behavior;
