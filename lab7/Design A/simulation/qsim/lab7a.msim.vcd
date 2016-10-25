@@ -1,0 +1,172 @@
+$comment
+	File created using the following command:
+		vcd file lab7a.msim.vcd -direction
+$end
+$date
+	Tue Oct 25 18:12:04 2016
+$end
+$version
+	ModelSim Version 10.3d
+$end
+$timescale
+	1ps
+$end
+
+$scope module lab7a_vlg_vec_tst $end
+$var reg 1 ! w $end
+$var reg 1 " x $end
+$var reg 1 # y $end
+$var reg 1 $ z $end
+$var wire 1 % f $end
+$var wire 1 & sampler $end
+
+$scope module i1 $end
+$var wire 1 ' gnd $end
+$var wire 1 ( vcc $end
+$var wire 1 ) unknown $end
+$var tri1 1 * devclrn $end
+$var tri1 1 + devpor $end
+$var tri1 1 , devoe $end
+$var wire 1 - f~output_o $end
+$var wire 1 . z~input_o $end
+$var wire 1 / y~input_o $end
+$var wire 1 0 x~input_o $end
+$var wire 1 1 w~input_o $end
+$var wire 1 2 inst|sub|81~0_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+0%
+x&
+0'
+1(
+x)
+1*
+1+
+1,
+0-
+0.
+0/
+00
+01
+02
+$end
+#5000
+1!
+11
+0&
+12
+1-
+1%
+#10000
+1$
+0!
+1.
+01
+1&
+#15000
+1!
+11
+0&
+02
+0-
+0%
+#20000
+1#
+0$
+0!
+1/
+0.
+01
+1&
+12
+1-
+1%
+#25000
+1!
+11
+0&
+02
+0-
+0%
+#30000
+1$
+0!
+1.
+01
+1&
+#35000
+1!
+11
+0&
+12
+1-
+1%
+#40000
+1"
+0#
+0$
+0!
+10
+0/
+0.
+01
+1&
+#45000
+1!
+11
+0&
+02
+0-
+0%
+#50000
+1$
+0!
+1.
+01
+1&
+#55000
+1!
+11
+0&
+12
+1-
+1%
+#60000
+1#
+0$
+0!
+1/
+0.
+01
+1&
+02
+0-
+0%
+#65000
+1!
+11
+0&
+12
+1-
+1%
+#70000
+1$
+0!
+1.
+01
+1&
+#75000
+1!
+11
+0&
+02
+0-
+0%
+#80000

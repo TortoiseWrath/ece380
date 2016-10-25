@@ -1,0 +1,34 @@
+# do lab7b.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 18:27:22 on Oct 25,2016
+# vlog -work work lab7b.vo 
+# -- Compiling module lab7b
+# 
+# Top level modules:
+# 	lab7b
+# End time: 18:27:22 on Oct 25,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 18:27:22 on Oct 25,2016
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module lab7b_vlg_sample_tst
+# -- Compiling module lab7b_vlg_check_tst
+# -- Compiling module lab7b_vlg_vec_tst
+# 
+# Top level modules:
+# 	lab7b_vlg_vec_tst
+# End time: 18:27:22 on Oct 25,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -do "lab7b.do" 
+# Start time: 18:27:22 on Oct 25,2016
+# Loading work.lab7b_vlg_vec_tst
+# Loading work.lab7b
+# Loading work.lab7b_vlg_sample_tst
+# Loading work.lab7b_vlg_check_tst
+# Simulation passed !
+# ** Note: $finish    : Waveform.vwf.vt(182)
+#    Time: 80 ns  Iteration: 0  Instance: /lab7b_vlg_vec_tst/tb_out
+# End time: 18:27:23 on Oct 25,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

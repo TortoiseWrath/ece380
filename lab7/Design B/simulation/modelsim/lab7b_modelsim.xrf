@@ -1,0 +1,14 @@
+vendor_name = ModelSim
+source_file = 1, D:/Lab 7/Design B/lab7b.bdf
+source_file = 1, D:/Lab 7/Design B/Waveform.vwf
+source_file = 1, c:/altera/16.0/quartus/libraries/others/maxplus2/74154.bdf
+design_name = lab7b
+instance = comp, \f1~output\, f1~output, lab7b, 1
+instance = comp, \f2~output\, f2~output, lab7b, 1
+instance = comp, \x0~input\, x0~input, lab7b, 1
+instance = comp, \x2~input\, x2~input, lab7b, 1
+instance = comp, \x3~input\, x3~input, lab7b, 1
+instance = comp, \x1~input\, x1~input, lab7b, 1
+instance = comp, \inst2~0\, inst2~0, lab7b, 1
+instance = comp, \inst|21\, inst|21, lab7b, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, lab7b, 1
