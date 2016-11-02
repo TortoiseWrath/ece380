@@ -1,0 +1,15 @@
+|lab8a
+w[0] => z.IN0
+w[1] => z.IN1
+w[1] => y.DATAA
+w[2] => z.IN1
+w[2] => y.OUTPUTSELECT
+w[2] => y.DATAA
+w[3] => z.IN1
+w[3] => y.OUTPUTSELECT
+w[3] => y.OUTPUTSELECT
+y[0] << y.DB_MAX_OUTPUT_PORT_TYPE
+y[1] << y.DB_MAX_OUTPUT_PORT_TYPE
+z << z.DB_MAX_OUTPUT_PORT_TYPE
+
+

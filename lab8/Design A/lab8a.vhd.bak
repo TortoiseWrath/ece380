@@ -1,0 +1,20 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY encoder IS
+	port(	w : in std_logic_vector(3 DOWNTO 0);
+			y : out std_logic_vector(1 DOWNTO 0);
+			z : out std_logic);
+END encoder;
+
+ARCHITECTURE priority_encoder OF encoder IS
+BEGIN
+	PROCESS(W) BEGIN
+		z <= w(0) OR w(1) OR w(2) OR w(3);
+		IF (w(0)="1") THEN y <= "00";
+		ELSIF (w(1)="1") THEN y <= "01";
+		ELSIF (w(2)="1") THEN y <= "10";
+		ELSE y <= "11";
+		END IF;
+	END PROCESS;
+END priority_encoder;
