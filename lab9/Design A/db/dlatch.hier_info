@@ -1,0 +1,10 @@
+|lab9a
+q <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+d => inst4.IN0
+d => inst4.IN1
+d => inst.IN1
+clk => inst1.IN1
+clk => inst.IN0
+nq <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+
+

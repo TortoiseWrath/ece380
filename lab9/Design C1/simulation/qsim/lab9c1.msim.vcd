@@ -1,0 +1,404 @@
+$comment
+	File created using the following command:
+		vcd file lab9c1.msim.vcd -direction
+$end
+$date
+	Tue Nov 08 19:32:53 2016
+$end
+$version
+	ModelSim Version 10.3d
+$end
+$timescale
+	1ps
+$end
+
+$scope module lab9c1_vlg_vec_tst $end
+$var reg 1 ! CLK $end
+$var reg 1 " MR $end
+$var reg 4 # P [3:0] $end
+$var reg 2 $ S [1:0] $end
+$var reg 1 % SL $end
+$var reg 1 & SR $end
+$var wire 1 ' Q [3] $end
+$var wire 1 ( Q [2] $end
+$var wire 1 ) Q [1] $end
+$var wire 1 * Q [0] $end
+$var wire 1 + sampler $end
+
+$scope module i1 $end
+$var wire 1 , gnd $end
+$var wire 1 - vcc $end
+$var wire 1 . unknown $end
+$var tri1 1 / devclrn $end
+$var tri1 1 0 devpor $end
+$var tri1 1 1 devoe $end
+$var wire 1 2 Q[0]~output_o $end
+$var wire 1 3 Q[1]~output_o $end
+$var wire 1 4 Q[2]~output_o $end
+$var wire 1 5 Q[3]~output_o $end
+$var wire 1 6 CLK~input_o $end
+$var wire 1 7 MR~input_o $end
+$var wire 1 8 S[0]~input_o $end
+$var wire 1 9 S[1]~input_o $end
+$var wire 1 : SR~input_o $end
+$var wire 1 ; P[3]~input_o $end
+$var wire 1 < tmp~4_combout $end
+$var wire 1 = tmp[0]~1_combout $end
+$var wire 1 > P[2]~input_o $end
+$var wire 1 ? tmp~3_combout $end
+$var wire 1 @ P[1]~input_o $end
+$var wire 1 A tmp~2_combout $end
+$var wire 1 B SL~input_o $end
+$var wire 1 C P[0]~input_o $end
+$var wire 1 D tmp~0_combout $end
+$var wire 1 E tmp [3] $end
+$var wire 1 F tmp [2] $end
+$var wire 1 G tmp [1] $end
+$var wire 1 H tmp [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+1"
+b0 #
+b10 $
+0%
+0&
+0*
+0)
+0(
+0'
+x+
+0,
+1-
+x.
+1/
+10
+11
+02
+03
+04
+05
+06
+17
+08
+19
+0:
+0;
+0<
+1=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0H
+0G
+0F
+0E
+$end
+#20000
+1!
+0+
+16
+#40000
+0!
+1+
+06
+#60000
+1!
+0+
+16
+#80000
+0!
+1+
+06
+#100000
+1!
+0+
+16
+#120000
+0!
+1+
+06
+#140000
+1!
+0+
+16
+#160000
+0!
+1+
+06
+#170000
+b1000 #
+b1010 #
+b1011 #
+1C
+1@
+1;
+0+
+#180000
+1!
+1+
+16
+#190000
+b11 #
+b1 #
+b0 #
+0C
+0@
+0;
+0+
+#200000
+0!
+1+
+06
+#210000
+1&
+1:
+0+
+#220000
+1!
+1+
+16
+#230000
+0&
+0:
+0+
+#240000
+0!
+1+
+06
+#260000
+1!
+0+
+16
+#280000
+0!
+1+
+06
+#300000
+1!
+0+
+16
+#320000
+0!
+1+
+06
+#330000
+1%
+1B
+0+
+1D
+#340000
+1!
+1+
+16
+1H
+12
+1*
+1A
+#350000
+0%
+0B
+0+
+0D
+#360000
+0!
+1+
+06
+#380000
+1!
+0+
+16
+0H
+1G
+13
+02
+1)
+0*
+1?
+0A
+#400000
+0!
+1+
+06
+#410000
+1%
+1B
+0+
+1D
+#420000
+1!
+1+
+16
+1H
+0G
+1F
+14
+03
+12
+1(
+0)
+1*
+1A
+1<
+0?
+#430000
+0%
+0B
+0+
+0D
+#440000
+0!
+1+
+06
+#460000
+1!
+0+
+16
+0H
+1G
+0F
+1E
+15
+04
+13
+02
+1'
+0(
+1)
+0*
+1?
+0A
+0<
+#480000
+0!
+1+
+06
+#500000
+1!
+0+
+16
+0G
+1F
+0E
+05
+14
+03
+0'
+1(
+0)
+0?
+1<
+#520000
+0!
+1+
+06
+#540000
+1!
+0+
+16
+0F
+1E
+15
+04
+1'
+0(
+0<
+#560000
+0!
+1+
+06
+#580000
+1!
+0+
+16
+0E
+05
+0'
+#600000
+0!
+1+
+06
+#620000
+1!
+0+
+16
+#640000
+0!
+1+
+06
+#660000
+1!
+0+
+16
+#680000
+0!
+1+
+06
+#700000
+1!
+0+
+16
+#720000
+0!
+1+
+06
+#740000
+1!
+0+
+16
+#760000
+0!
+1+
+06
+#780000
+1!
+0+
+16
+#800000
+0!
+1+
+06
+#820000
+1!
+0+
+16
+#840000
+0!
+1+
+06
+#860000
+1!
+0+
+16
+#880000
+0!
+1+
+06
+#900000
+1!
+0+
+16
+#920000
+0!
+1+
+06
+#940000
+1!
+0+
+16
+#960000
+0!
+1+
+06
+#980000
+1!
+0+
+16
+#1000000

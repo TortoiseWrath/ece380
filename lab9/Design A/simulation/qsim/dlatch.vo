@@ -1,0 +1,161 @@
+// Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, the Altera Quartus II License Agreement,
+// the Altera MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Altera and sold by Altera or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus II 64-Bit"
+// VERSION "Version 15.0.0 Build 145 04/22/2015 SJ Web Edition"
+
+// DATE "11/08/2016 18:14:37"
+
+// 
+// Device: Altera 5CSEMA5F31C6 Package FBGA896
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module lab9a (
+	q,
+	d,
+	clk,
+	nq);
+output 	q;
+input 	d;
+input 	clk;
+output 	nq;
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \q~output_o ;
+wire \nq~output_o ;
+wire \d~input_o ;
+wire \clk~input_o ;
+wire \inst2~1_combout ;
+wire \inst3~combout ;
+
+
+cyclonev_io_obuf \q~output (
+	.i(!\inst2~1_combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\q~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \q~output .bus_hold = "false";
+defparam \q~output .open_drain_output = "false";
+defparam \q~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_obuf \nq~output (
+	.i(\inst3~combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(\nq~output_o ),
+	.obar());
+// synopsys translate_off
+defparam \nq~output .bus_hold = "false";
+defparam \nq~output .open_drain_output = "false";
+defparam \nq~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+cyclonev_io_ibuf \d~input (
+	.i(d),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\d~input_o ));
+// synopsys translate_off
+defparam \d~input .bus_hold = "false";
+defparam \d~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_io_ibuf \clk~input (
+	.i(clk),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\clk~input_o ));
+// synopsys translate_off
+defparam \clk~input .bus_hold = "false";
+defparam \clk~input .simulate_z_as = "z";
+// synopsys translate_on
+
+cyclonev_lcell_comb \inst2~1 (
+// Equation(s):
+// \inst2~1_combout  = (!\clk~input_o  & (\inst2~1_combout )) # (\clk~input_o  & ((!\d~input_o )))
+
+	.dataa(!\inst2~1_combout ),
+	.datab(!\d~input_o ),
+	.datac(!\clk~input_o ),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\inst2~1_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \inst2~1 .extended_lut = "off";
+defparam \inst2~1 .lut_mask = 64'h5C5C5C5C5C5C5C5C;
+defparam \inst2~1 .shared_arith = "off";
+// synopsys translate_on
+
+cyclonev_lcell_comb inst3(
+// Equation(s):
+// \inst3~combout  = ((!\d~input_o  & \clk~input_o )) # (\inst2~1_combout )
+
+	.dataa(!\inst2~1_combout ),
+	.datab(!\d~input_o ),
+	.datac(!\clk~input_o ),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\inst3~combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam inst3.extended_lut = "off";
+defparam inst3.lut_mask = 64'h5D5D5D5D5D5D5D5D;
+defparam inst3.shared_arith = "off";
+// synopsys translate_on
+
+assign q = \q~output_o ;
+
+assign nq = \nq~output_o ;
+
+endmodule

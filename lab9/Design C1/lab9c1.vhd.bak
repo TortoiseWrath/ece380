@@ -1,0 +1,24 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY lab9c1 IS
+	PORT(S: IN std_logic_vector(1 DOWNTO 0);
+		  MR, SL, SR, CLK: IN std_logic;
+		  P: IN std_logic_vector(3 DOWNTO 0));
+END lab9c1;
+
+ARCHITECTURE Arch of lab9c1 IS
+BEGIN
+	PROCESS (CLK) IS
+	BEGIN
+		IF rising_edge(CLK) THEN
+			IF (S='01') THEN --shift right
+				
+			ELSIF (S='10') THEN --shift left
+				
+			ELSIF (S='11') THEN --parallel load
+				
+			END IF;
+		END IF;
+	END PROCESS;
+END Arch;

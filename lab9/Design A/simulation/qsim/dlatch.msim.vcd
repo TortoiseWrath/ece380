@@ -1,0 +1,188 @@
+$comment
+	File created using the following command:
+		vcd file dlatch.msim.vcd -direction
+$end
+$date
+	Tue Nov 08 18:14:39 2016
+$end
+$version
+	ModelSim Version 10.3d
+$end
+$timescale
+	1ps
+$end
+
+$scope module lab9a_vlg_vec_tst $end
+$var reg 1 ! clk $end
+$var reg 1 " d $end
+$var wire 1 # nq $end
+$var wire 1 $ q $end
+$var wire 1 % sampler $end
+
+$scope module i1 $end
+$var wire 1 & gnd $end
+$var wire 1 ' vcc $end
+$var wire 1 ( unknown $end
+$var tri1 1 ) devclrn $end
+$var tri1 1 * devpor $end
+$var tri1 1 + devoe $end
+$var wire 1 , q~output_o $end
+$var wire 1 - nq~output_o $end
+$var wire 1 . d~input_o $end
+$var wire 1 / clk~input_o $end
+$var wire 1 0 inst2~1_combout $end
+$var wire 1 1 inst3~combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+x#
+x$
+x%
+0&
+1'
+x(
+1)
+1*
+1+
+x,
+x-
+0.
+0/
+x0
+x1
+$end
+#30000
+1"
+1.
+0%
+#39600
+1!
+1/
+1%
+00
+1,
+1$
+01
+0-
+0#
+#70000
+0!
+0/
+0%
+#80000
+0"
+0.
+1%
+#119600
+1!
+1/
+0%
+10
+11
+1-
+0,
+1#
+0$
+#150000
+0!
+0/
+1%
+#160000
+1"
+1.
+0%
+#199600
+1!
+1/
+1%
+00
+1,
+1$
+01
+0-
+0#
+#210000
+0"
+0.
+0%
+10
+11
+1-
+0,
+1#
+0$
+#230000
+0!
+0/
+1%
+#279600
+1!
+1/
+0%
+#290000
+1"
+1.
+1%
+00
+1,
+1$
+01
+0-
+0#
+#310000
+0!
+0/
+0%
+#330000
+0"
+0.
+1%
+#359600
+1!
+1/
+0%
+10
+11
+1-
+0,
+1#
+0$
+#370000
+1"
+1.
+1%
+00
+1,
+1$
+01
+0-
+0#
+#380000
+0"
+0.
+0%
+10
+11
+1-
+0,
+1#
+0$
+#390000
+0!
+1"
+0/
+1.
+1%
+#410000
+0"
+0.
+0%
+#439600
+1!
+1/
+1%
+#440000

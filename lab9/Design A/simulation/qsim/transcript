@@ -1,0 +1,32 @@
+# do dlatch.do
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 18:14:38 on Nov 08,2016
+# vlog -work work dlatch.vo 
+# -- Compiling module lab9a
+# 
+# Top level modules:
+# 	lab9a
+# End time: 18:14:38 on Nov 08,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 18:14:38 on Nov 08,2016
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module lab9a_vlg_sample_tst
+# -- Compiling module lab9a_vlg_check_tst
+# -- Compiling module lab9a_vlg_vec_tst
+# 
+# Top level modules:
+# 	lab9a_vlg_vec_tst
+# End time: 18:14:38 on Nov 08,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -do "dlatch.do" 
+# Start time: 18:14:38 on Nov 08,2016
+# Loading work.lab9a_vlg_vec_tst
+# Loading work.lab9a
+# Loading work.lab9a_vlg_sample_tst
+# Loading work.lab9a_vlg_check_tst
+# Simulation passed !
+# ** Note: $finish    : Waveform.vwf.vt(178)
+#    Time: 440 ns  Iteration: 0  Instance: /lab9a_vlg_vec_tst/tb_out
+# End time: 18:14:39 on Nov 08,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
