@@ -1,0 +1,15 @@
+|lab10a
+clk => cur[0].CLK
+clk => cur[1].CLK
+clk => cur[2].CLK
+clr => cur.OUTPUTSELECT
+clr => cur.OUTPUTSELECT
+clr => cur.OUTPUTSELECT
+updown => cur.OUTPUTSELECT
+updown => cur.OUTPUTSELECT
+updown => cur.OUTPUTSELECT
+count[0] <= cur[0].DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= cur[1].DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= cur[2].DB_MAX_OUTPUT_PORT_TYPE
+
+
